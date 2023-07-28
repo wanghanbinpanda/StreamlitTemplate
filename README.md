@@ -1,14 +1,9 @@
-# geemap-apps
+# Streamlit模板
 
 ## Introduction
 
-This repo demostrates how to build a multi-page [Earth Engine](https://earthengine.google.com) App using [streamlit](https://streamlit.io) and [geemap](https://geemap.org). You can deploy the app on various cloud platforms, such as [share.streamlit.io](https://share.streamlit.io). Make sure you set `EARTHENGINE_TOKEN='your-token'` as an environment variable (secret) on the cloud platform.
+这是一个使用[streamlit框架](https://streamlit.io/)构建的多page app，只包含基本的网页布局、侧边栏等，可以基于此模板进行后续的网站开发
 
-- **Web App:** <https://geemap.streamlit.app>
-- **Github:** <https://github.com/giswqs/geemap-apps>
+app.py下面是网站首页
 
-### Where to find your Earth Engine token?
-
-- **Windows:** `C:/Users/USERNAME/.config/earthengine/credentials`
-- **Linux:** `/home/USERNAME/.config/earthengine/credentials`
-- **macOS:** `/Users/USERNAME/.config/earthengine/credentials`
+pages/下面存放其他页面
